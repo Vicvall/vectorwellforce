@@ -7,6 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <title>Vector Well Force</title>
       <header className="App-header">
         <div class="logo">
           <img src={logoback} className="App-logo2" alt="logo" />
