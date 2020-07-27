@@ -7,8 +7,12 @@
 
 .App-header {
   background-color: #53BDF9;
-  height: 18vh;
-  max-width: 100vh;
+}
+
+.App-header-menu {
+  background-color: #53BDF9;
+  min-height: 250px;
+  max-width: 1000px;
   display: flex;
   flex-direction: row;
   margin: auto;
@@ -35,7 +39,7 @@
 }
 
 .App-logo-text {
-  height: 238px;
+  height: 239px;
   pointer-events: none;
   padding: 2vmin;
   position: relative;
@@ -48,7 +52,9 @@
 }
 
 .Navigation {
-
+  min-width: 200px;
+  position: relative;
+  margin: 2vmin;
 }
 
 .NavButton {
@@ -71,6 +77,17 @@
 }
 
 .body {
-  width: 100vmin;
+  background-color: #53BDF9;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: white;
+}
+
+.content {
+  max-width: 80vh;
   margin: auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmin 0;
 }
