@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <title>Vector Well Force</title>
-      <header className="App-header">
+      <div className="App-header">
         <div className="App-header-menu">
           <div className="Logo">
             <img src={logoback} className="App-logo" alt="logo" />
@@ -20,12 +20,12 @@ function App() {
             <button className="NavButton">About</button>
           </div>
         </div>
-      </header>
-      <body className="body">
+      </div>
+      <div className="body">
         <div className="content">
           <p>Testing the font</p>
         </div>
-      </body>
+      </div>
     </div>
   );
 }

@@ -3,6 +3,7 @@
   font-family: 'Comfortaa', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
+  background-color: #53BDF9;
 }
 
 .App-header {
@@ -100,8 +101,7 @@
 
 .body {
   background-color: #53BDF9;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   color: white;
 }
 
@@ -112,4 +112,5 @@
   align-items: center;
   justify-content: center;
   padding: 2vmin;
+  text-align: left;
 }
