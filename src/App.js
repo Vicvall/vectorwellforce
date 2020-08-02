@@ -2,7 +2,6 @@ import React from 'react';
 import logofront from './vectorwellforce_logofront.svg';
 import logo from './vectorwellforce_logotext.svg';
 import logoback from './vectorwellforce_logoback.svg';
-import { Button } from 'react-bootstrap';
 import './App.css';
 
 function App() {
@@ -17,8 +16,8 @@ function App() {
             <img src={logofront} className="App-logo" alt="logo" />
           </div>
           <div className="Navigation">
-            <Button className="NavButton">Button 1</Button>
-            <Button className="NavButton">Button 2</Button>
+            <button className="NavButton">Blog</button>
+            <button className="NavButton">About</button>
           </div>
         </div>
       </header>

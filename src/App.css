@@ -23,10 +23,40 @@
   color: white;
 }
 
+.Navigation {
+  min-width: 200px;
+  margin: 2vw;
+}
+
+.NavButton {
+  background-color: #53BDF9;
+  border: none;
+  padding: 10px 20px;
+  width: 200px;
+  margin: 10px 2vmin;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 36px;
+}
+
 .Logo {
   top: 0;
   left: 0;
   position: absolute;
+}
+
+@media (max-width: 855px){
+  .App-header-menu {
+    flex-direction: column;
+  }
+
+  .Logo {
+    width: 239px;
+    margin: auto;
+    position: relative;
+  }
 }
 
 .App-logo {
@@ -51,16 +81,8 @@
   }
 }
 
-.Navigation {
-  min-width: 200px;
-  position: relative;
-  margin: 2vmin;
-}
-
-.NavButton {
-  padding: 2vmin 6vmin;
-  margin: 4vmin;
-  color: white;
+.NavButton:hover {
+  text-decoration: underline;
 }
 
 .App-link {
@@ -84,10 +106,10 @@
 }
 
 .content {
-  max-width: 80vh;
+  background-color: #b0e1fd;
+  max-width: 800px;
   margin: auto;
-  position: relative;
   align-items: center;
   justify-content: center;
-  padding: 2vmin 0;
+  padding: 2vmin;
 }
