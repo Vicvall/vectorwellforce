@@ -3,6 +3,7 @@ import logofront from './vectorwellforce_logofront.svg';
 import logo from './vectorwellforce_logotext.svg';
 import logoback from './vectorwellforce_logoback.svg';
 import './App.css';
+import loadAbout from './about.js'
 
 function App() {
   return (
@@ -16,15 +17,13 @@ function App() {
             <img src={logofront} className="App-logo" alt="logo" />
           </div>
           <div className="Navigation">
-            <button className="NavButton">Blog</button>
+            <button className="NavButton" onClick={loadAbout}>Blog</button>
             <button className="NavButton">About</button>
           </div>
         </div>
       </div>
       <div className="body">
-        <div className="content">
-          <p>Testing the font</p>
-        </div>
+        {loadAbout()}
       </div>
     </div>
   );

@@ -58,6 +58,11 @@
     margin: auto;
     position: relative;
   }
+
+  .blogText {
+    font-size: calc(11px + 2vmin);
+    color: white;
+  }
 }
 
 .App-logo {
@@ -101,16 +106,35 @@
 
 .body {
   background-color: #53BDF9;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2vmin;
   color: white;
 }
 
 .content {
-  background-color: #b0e1fd;
+  background-color: #04659e;
   max-width: 800px;
   margin: auto;
   align-items: center;
   justify-content: center;
   padding: 2vmin;
   text-align: left;
+}
+
+.blogImage {
+  max-width: 600px;
+  display: block;
+  margin:auto;
+}
+
+.blogTitle {
+  text-align: center;
+  font-size: calc(20px + 3vmin);
+  margin: 0 0 3vmin 0;
+  color: white;
+}
+
+.blogText {
+  font-size: calc(11px + 0.75vmin);
+  color: white;
 }
