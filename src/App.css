@@ -29,6 +29,20 @@
   margin: 2vw;
 }
 
+.scrolled{
+  background-color: #53BDF9;
+  min-height: 250px;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .NavButton {
   background-color: #53BDF9;
   border: none;
