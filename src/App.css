@@ -8,6 +8,7 @@
 
 .App-header {
   background-color: #53BDF9;
+  position: relative;
 }
 
 .App-header-menu {
@@ -35,8 +36,11 @@
   max-width: 1000px;
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: 0 auto;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -156,7 +160,7 @@
   .content {
     background-color: #04659e;
     max-width: 800px;
-    margin: auto;
+    margin: 30% auto;
     align-items: center;
     justify-content: center;
     padding: 2vmin;
