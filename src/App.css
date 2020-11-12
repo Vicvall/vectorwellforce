@@ -62,23 +62,6 @@
   position: absolute;
 }
 
-@media (max-width: 855px){
-  .App-header-menu {
-    flex-direction: column;
-  }
-
-  .Logo {
-    width: 239px;
-    margin: auto;
-    position: relative;
-  }
-
-  .blogText {
-    font-size: calc(11px + 2vmin);
-    color: white;
-  }
-}
-
 .App-logo {
   height: 262px;
   pointer-events: none;
@@ -133,6 +116,7 @@
   justify-content: center;
   padding: 2vmin;
   text-align: left;
+  box-shadow: 0px 5px 3px 2px #3e8ab6;
 }
 
 .blogImage {
@@ -151,4 +135,32 @@
 .blogText {
   font-size: calc(11px + 0.75vmin);
   color: white;
+}
+
+@media (max-width: 855px){
+  .App-header-menu {
+    flex-direction: column;
+  }
+
+  .Logo {
+    width: 239px;
+    margin: auto;
+    position: relative;
+  }
+
+  .blogText {
+    font-size: calc(11px + 2vmin);
+    color: white;
+  }
+
+  .content {
+    background-color: #04659e;
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmin;
+    text-align: left;
+    box-shadow: none;
+  }
 }
